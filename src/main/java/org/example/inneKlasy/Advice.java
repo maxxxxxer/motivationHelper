@@ -13,7 +13,6 @@ public String advice;
        return numberOfGivenAdvises;
     }
 
-// HOMEWORK below:
 
 
 
