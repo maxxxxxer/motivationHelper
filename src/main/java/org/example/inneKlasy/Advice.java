@@ -1,15 +1,22 @@
-package org.example;
+package org.example.inneKlasy;
 public class Advice {
+public String advice;
 
-    public static int numberOfGivenAdvises = 0;
+   public static int numberOfGivenAdvises = 0;
 
-    Advice(String advice) {
-        super();
+    public Advice(String advice) {
+        this.advice = advice;
         numberOfGivenAdvises++;
     }
 
-    public int getCountAdvises() {
-        return numberOfGivenAdvises;
+    public static int getCountAdvises() {
+       return numberOfGivenAdvises;
     }
+
+// HOMEWORK below:
+
+
+
+
 
 }
